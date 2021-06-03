@@ -26,7 +26,31 @@ namespace Transportnaya.Windowst
 
         private void Perevoz_Click(object sender, RoutedEventArgs e)
         {
+            Perevozciki window = new Perevozciki();
+            window.Show();
+            Close();
+                
+        }
 
+        private void Zagruzki_Click(object sender, RoutedEventArgs e)
+        {
+            Zagruzki window = new Zagruzki();
+            window.Show();
+            Close();
+        }
+
+        private void Zacazchiki_Click(object sender, RoutedEventArgs e)
+        {
+            Zakazchiki window = new Zakazchiki();
+            window.Show();
+            Close();
+        }
+
+        private void Close2_Click(object sender, RoutedEventArgs e)
+        {
+            Avtorizaciya window = new Avtorizaciya();
+            window.Show();
+            Close();
         }
     }
 }

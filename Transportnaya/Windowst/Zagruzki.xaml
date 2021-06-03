@@ -38,10 +38,10 @@
                 <DataGridTextColumn Header="Стоимость" Binding="{Binding}"/>
             </DataGrid.Columns>
         </DataGrid>
-        <Button x:Name="Back" Content="Назад" Grid.Row="2" Grid.Column="0" Background="#FF75D6EC" Click="Back_Click"></Button>
+        <Button x:Name="BackZ" Content="Назад" Grid.Row="2" Grid.Column="0" Background="#FF75D6EC" Click="BackZ_Click"></Button>
 
-        <Button x:Name="Delet" Content="Удалить" Grid.Row="2" Grid.Column="2" Background="#FF75D6EC" Click="Delet_Click"></Button>
+        <Button x:Name="DeletZ" Content="Удалить" Grid.Row="2" Grid.Column="2" Background="#FF75D6EC" Click="DeletZ_Click"></Button>
 
-        <Button x:Name="Add" Content="Добавить" Grid.Row="2" Grid.Column="4" Width="99" HorizontalAlignment="Left" Background="#FF75D6EC" Click="Add_Click"></Button>
+        <Button x:Name="AddZ" Content="Добавить" Grid.Row="2" Grid.Column="4" Width="99" HorizontalAlignment="Left" Background="#FF75D6EC" Click="AddZ_Click"></Button>
     </Grid>
 </Window>

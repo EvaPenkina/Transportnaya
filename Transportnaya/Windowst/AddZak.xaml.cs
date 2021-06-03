@@ -24,7 +24,12 @@ namespace Transportnaya.Windowst
             InitializeComponent();
         }
 
-        private void Back2_Click(object sender, RoutedEventArgs e)
+        private void Back4_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Back3_Click(object sender, RoutedEventArgs e)
         {
 
         }

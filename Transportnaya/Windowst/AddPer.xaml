@@ -42,14 +42,14 @@
 
        
 
-        <Button x:Name="Add2" Content="Добавить" Grid.Row="9" Grid.Column="4" Width="99" HorizontalAlignment="Left" Background="#FF75D6EC"></Button>
+        <Button x:Name="Add2" Content="Добавить" Grid.Row="9" Grid.Column="4" Width="99" HorizontalAlignment="Left" Background="#FF75D6EC" Click="Add2_Click"></Button>
         <TextBox x:Name="NameTB" Grid.Row="2" Grid.Column="2" Grid.ColumnSpan="2"></TextBox>
         <TextBox x:Name="FIOTB" Grid.Row="3" Grid.Column="2" Grid.ColumnSpan="2"></TextBox>
         <TextBox x:Name="PasDTB" Grid.Row="4" Grid.Column="2" Grid.ColumnSpan="2"></TextBox>
         <TextBox x:Name="MarkTB" Grid.Row="5" Grid.Column="2" Grid.ColumnSpan="2"></TextBox>
         <TextBox x:Name="NummberTB" Grid.Row="6" Grid.Column="2" Grid.ColumnSpan="2"></TextBox>
         <TextBox x:Name="PhoneTB" Grid.Row="7" Grid.Column="2" Grid.ColumnSpan="2"></TextBox>
-        <CheckBox Grid.Row="8" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center"></CheckBox>
+        <TextBox x:Name="CekTB" Grid.Row="8" Grid.Column="2" Grid.ColumnSpan="2"/>
 
     </Grid>
 </Window>

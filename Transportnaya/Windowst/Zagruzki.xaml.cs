@@ -23,5 +23,23 @@ namespace Transportnaya.Windowst
         {
             InitializeComponent();
         }
+
+     
+        private void BackZ_Click(object sender, RoutedEventArgs e)
+        {
+            Meny window = new Meny();
+            window.Show();
+            Close();
+        }
+
+        private void DeletZ_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void AddZ_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

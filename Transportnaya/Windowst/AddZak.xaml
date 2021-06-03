@@ -46,7 +46,7 @@
         <Label Content="Марка  и номер тягача" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="10" Grid.Column="0" FontSize="14"  Grid.ColumnSpan="2" FontFamily="New Time Romans" ></Label>
         <Label Content="Вес" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="11" Grid.Column="0" FontSize="14"  Grid.ColumnSpan="2" FontFamily="New Time Romans" ></Label>
         <Label Content="Стоимость" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="12" Grid.Column="0" FontSize="14"  Grid.ColumnSpan="2" FontFamily="New Time Romans" ></Label>
-        <Button x:Name="Back3" Content="Назад" Grid.Row="13" Grid.Column="0" Background="#FF75D6EC" Click="Back2_Click"></Button>
+        <Button x:Name="Back3" Content="Назад" Grid.Row="13" Grid.Column="0" Background="#FF75D6EC" Click="Back3_Click"></Button>
 
 
 

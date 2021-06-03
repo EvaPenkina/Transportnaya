@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using Transportnaya.BD_Model;
 
 namespace Transportnaya.Windowst
 {
@@ -19,9 +20,33 @@ namespace Transportnaya.Windowst
     /// </summary>
     public partial class Avtorizaciya : Window
     {
+        ModelBDT db = new ModelBDT();
         public Avtorizaciya()
         {
             InitializeComponent();
+        }
+
+        private void Voiti_Click(object sender, RoutedEventArgs e)
+        {
+
+                if (db.Avtorizac.Where(u => u.Login == loginTV.Text && u.Password == passwordTV.Password).FirstOrDefault() != null)
+                {
+                Meny window = new Meny();
+                window.Show();
+                Close();
+                }
+            else
+
+            {
+
+                MessageBox.Show("Неверный логин или пароль!");
+
+            }
+        }
+
+        private void Close_Click(object sender, RoutedEventArgs e)
+        {
+            Close();
         }
     }
 }

@@ -45,7 +45,7 @@
         <Label Content="Наименование банка" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="9" Grid.Column="0" FontSize="14"  Grid.ColumnSpan="2" FontFamily="New Time Romans" ></Label>
         <Label Content="БИК банка" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="10" Grid.Column="0" FontSize="14"  Grid.ColumnSpan="2" FontFamily="New Time Romans" ></Label>
         <Label Content="Контрактное лицо" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="11" Grid.Column="0" FontSize="14"  Grid.ColumnSpan="2" FontFamily="New Time Romans" ></Label>
-        <Button x:Name="Back4" Content="Назад" Grid.Row="13" Grid.Column="0" Background="#FF75D6EC" Click="Back2_Click"></Button>
+        <Button x:Name="Back4" Content="Назад" Grid.Row="13" Grid.Column="0" Background="#FF75D6EC" Click="Back4_Click"></Button>
         <Button x:Name="Add4" Content="Добавить" Grid.Row="13" Grid.Column="4" Width="99" HorizontalAlignment="Left" Background="#FF75D6EC"></Button>
         <TextBox x:Name="NameTB" Grid.Row="2" Grid.Column="2" Grid.ColumnSpan="2"></TextBox>
         <TextBox x:Name="YorTB" Grid.Row="3" Grid.Column="2" Grid.ColumnSpan="2"></TextBox>

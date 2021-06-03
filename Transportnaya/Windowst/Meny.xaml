@@ -23,9 +23,9 @@
             <ColumnDefinition Width="50*"/>
         </Grid.ColumnDefinitions>
         <Button x:Name="Perevoz" Content="Перевозчики" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="1" Grid.Row="1"  Grid.ColumnSpan="2" Height="50" Width="150" FontFamily="New Time Romans" FontSize="20" Background="#FF75D6EC" Click="Perevoz_Click"></Button>
-        <Button x:Name="Zagruzki" Content="Загрузки" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="1" Grid.Row="3"  Grid.ColumnSpan="2" Height="50" Width="150" FontFamily="New Time Romans" FontSize="20" Background="#FF75D6EC"></Button>
-        <Button x:Name="Zacazchiki" Content="Заказчики" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="1" Grid.Row="5"  Grid.ColumnSpan="2" Height="50" Width="150" FontFamily="New Time Romans" FontSize="20" Background="#FF75D6EC"></Button>
-        <Button x:Name="Close2" Content="Выход" HorizontalAlignment="Center" VerticalAlignment="Center"  Grid.Row="6"  Grid.ColumnSpan="4" Height="100" Width="445" FontFamily="New Time Romans" FontSize="20" Background="#FF75D6EC"></Button>
+        <Button x:Name="Zagruzki" Content="Загрузки" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="1" Grid.Row="3"  Grid.ColumnSpan="2" Height="50" Width="150" FontFamily="New Time Romans" FontSize="20" Background="#FF75D6EC" Click="Zagruzki_Click"></Button>
+        <Button x:Name="Zacazchiki" Content="Заказчики" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="1" Grid.Row="5"  Grid.ColumnSpan="2" Height="50" Width="150" FontFamily="New Time Romans" FontSize="20" Background="#FF75D6EC" Click="Zacazchiki_Click"></Button>
+        <Button x:Name="Close2" Content="Выход" HorizontalAlignment="Center" VerticalAlignment="Center"  Grid.Row="6"  Grid.ColumnSpan="4" Height="100" Width="445" FontFamily="New Time Romans" FontSize="20" Background="#FF75D6EC" Click="Close2_Click"></Button>
         <Button x:Name="Calend" Content="Календарь" Grid.Column="0" Grid.Row="0" Background="#FF75D6EC"></Button>
         <Button x:Name="Ati" Content="ATI" Grid.Column="1" Grid.Row="0" Background="#FF75D6EC"></Button>
         <Button x:Name="Calkul" Content="Калькулятор" Grid.Column="2" Grid.Row="0" Background="#FF75D6EC"></Button>

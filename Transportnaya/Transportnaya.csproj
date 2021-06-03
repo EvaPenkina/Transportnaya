@@ -35,8 +35,17 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -59,6 +68,13 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="BD_Model\Application.cs" />
+    <Compile Include="BD_Model\Avtorizac.cs" />
+    <Compile Include="BD_Model\Client.cs" />
+    <Compile Include="BD_Model\Driver.cs" />
+    <Compile Include="BD_Model\ModelBDT.cs" />
+    <Compile Include="BD_Model\sysdiagrams.cs" />
+    <Compile Include="sysdiagrams.cs" />
     <Compile Include="Windowst\AddPer.xaml.cs">
       <DependentUpon>AddPer.xaml</DependentUpon>
     </Compile>
@@ -74,6 +90,7 @@
     <Compile Include="Windowst\Meny.xaml.cs">
       <DependentUpon>Meny.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Windowst\ModelDBT.cs" />
     <Compile Include="Windowst\Perevozciki.xaml.cs">
       <DependentUpon>Perevozciki.xaml</DependentUpon>
     </Compile>
@@ -102,6 +119,7 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
